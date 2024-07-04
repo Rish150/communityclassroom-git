@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; 
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; 
+}
+
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: right;
+  width: 20%; 
+}
+
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
+}
+
+</style>
+</head>
+<body>
+
+<h2>My Personal Blog</h2>
+
+<div class="left">
+  <h3>About Me</h3>
+  <p>Short bio and links to social media.</p>
+  <h3>Navigation</h3>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+<div class="main">
+  <h3>Latest Post</h3>
+  <p id="#1">me and the boys hanging out.</p>
+  <br>
+  <p id="#2">skiing is so fun together</p>
+</div>
+
+<div class="right">
+  <h3>Recent Posts</h3>
+  <ul>
+    <li><a href="#1">Post 1</a></li>
+    <li><a href="#2">Post 2</a></li>
+    <li><a href="#3">Post 3</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

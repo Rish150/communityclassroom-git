@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body
+    {
+        font-family:Arial,sans-serif;
+        background-color: #0532c7;
+        padding: 20px;
+    }
+    form
+    {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: rgb(250, 252, 252);
+        padding: 20px;
+        border-radius:8px ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table
+    {
+        width:100% ;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    table td{
+        padding: 10px;
+        border: 1px solid #0c0c0c;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    select{
+        width: calc(100%-12px);
+        padding: 8px;
+        border: 1px solid #0c0c0c;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    input[type="submit"]
+    {
+        background-color: rgb(237, 249, 10);
+        color: #0307f5;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover{
+        background-color: aquamarine;
+    }
+    input[type="radio"]
+    {
+        margin-right: ;
+    }
+    </style>
+</head>
+<body>
+   
+    <table>
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                <input type="text"placeholder="Name" name ="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password:
+            </td>
+            <td>
+                <input type="password"placeholder="Password" name="">
+            </td>
+        </tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" name ="Gender">male
+                <input type="radio" name ="Gender">female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="mail"placeholder="Email"name="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone no:
+            </td>
+            <td>
+                <select>
+                    <option>91</option>
+                    <option>90</option>
+                    <option>89</option>
+                    <option>88</option>
+                    <option>87</option>
+                </select>
+                <input type="Phone"placeholder="9643****"name="">
+            </td>
+        </tr>
+        <tr>
+        <td>
+            <input type="submit" value="hell yeah"name="">
+        </td>
+        </tr>
+    </table>
+</body>
+</html>
